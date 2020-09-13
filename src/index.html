@@ -8,11 +8,17 @@
   <link rel="stylesheet" href="index.css" />
   <link rel="icon" type="image/png" href="../favicon.ico">
   <script defer src="render.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 </head>
 
 <body class="content">
   <h1>Recordinator</h1>
-
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
   <video></video>
 
   <button id="startBtn" class="button is-primary">Start</button>

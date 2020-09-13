@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A screen recorder.",
   "main": "src/index.js",
-  "build":{
+  "build": {
     "win": {
       "icon": "./favicon.ico"
     },
